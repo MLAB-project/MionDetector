@@ -1,0 +1,38 @@
+Materiály
+1.	MLAB kit
+2.	ATmega1284P procesor
+3.	3.3V stabilizátor napětí
+4.	Analogová paměť (2x)
+5.	USB programátor
+6.	BC412 plastové scintilátory (2x)
+7.	Olověný plech
+8.	Fotonásobiče USTSIPM01A (2x)
+9.	Teflonová páska
+10.	Elektrikářská páska
+11.	Oboustranná páska
+12.	Krabička od bonbonů
+13.	LED dioda
+Postup
+1.	Příprava scintilátoru:
+  o	Obmotejte scintilátor teflonem, ponechte malou dírku pro fotonásobič.
+  o	Umístěte fotonásobič z boku na kratší stranu scintilátoru.
+  o	Obmotejte celek elektrikářskou páskou.
+2.	Sestavení detektoru:
+  o	Opakujte výše uvedený postup pro druhý scintilátor.
+  o	Umístěte plátek olova mezi scintilátory a připevněte jej oboustrannou páskou.
+  o	Vložte celek do krabičky od bonbonů.
+3.	Elektrické zapojení:
+  o	Napájejte detektor z USB konektoru, snižte napětí na 3.3V pomocí stabilizátoru.
+  o	Přiveďte napětí do dvou analogových pamětí.
+  o	Paralelně připojte napětí do fotonásobičů.
+  o	Výstupy fotonásobičů připojte na vstupy analogových pamětí.
+  o	Analogové výstupy z pamětí připojte na analogové piny A0 a A1 procesoru ATmega1284P.
+  o	Reset analogových pamětí připojte na digitální piny B0 a B1 procesoru.
+  o	Umístěte LED diodu na pin C0 pro indikaci mionů.
+4.	Připojení programátoru:
+  o	Spojte nožičky programátoru: 
+    •	TX - D1 
+    •	RX - D0
+    • DTR - RESET
+  o	Připojte napájení 5.5V z USB programátoru a začněte programovat.
+
